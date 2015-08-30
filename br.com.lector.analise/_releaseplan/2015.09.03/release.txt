@@ -1,0 +1,5 @@
+﻿- Aplicativo Android com as telas desenhadas para o release
+- Tela inicial
+   - Botão Ler leva ao leitor de Barcode
+   - após leitura é exibida a tela do produto, tela fixa sem carregar os dados
+   - os outros botões não fazem nada

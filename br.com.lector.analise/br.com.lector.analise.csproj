@@ -55,6 +55,7 @@
     <Content Include="_releaseplan\2015.09.03\lector.r1.png" />
     <Content Include="_concepcao\idéias.txt" />
     <Content Include="_concepcao\visao.txt" />
+    <Content Include="_releaseplan\2015.09.03\release.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="_diagramas\diagramas.asta" />
