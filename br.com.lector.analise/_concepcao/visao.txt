@@ -1,0 +1,19 @@
+Leitor de preços de produtos pelo celular utilizando o código de barras.
+
+Atores:
+Cliente
+Mercado
+
+Requisitos:
+01f - Cliente lê o valor dos produtos no supermercado através do celular.
+02f - Cliente gerencia seu carrinho, incluindo e excluindo produtos e suas quantidades.
+03f - Cliente consulta o total de seu carrinho.
+04f - Cliente COMPRA o carrinho atual para salvar no histórico.
+05f - Cliente cadastrado consulta suas compras anteriores no histórico.
+06f - Cliente cria lista de compras através de compras anteriores.
+07f - Cliente exporta compra e valores para outros formatos afim de fazer seu controle de gastos.
+08f - Mercado consulta clientes e suas compras/perfil de compra.
+09f - Mercado divulga suas ofertas para esses clientes cadastrados.
+
+Requisitos não funcionais:
+

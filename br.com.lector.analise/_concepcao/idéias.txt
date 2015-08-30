@@ -1,0 +1,4 @@
+- Enviar mensagens para os clientes quando entrarem em outros supermercados
+- Cliente efetuar compra pelo celular e mercado entregar
+- Pesquisar produto por nome
+- Histórico de preços
