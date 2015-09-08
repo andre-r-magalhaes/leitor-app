@@ -11,9 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "br.com.anddo.lector.api", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "br.com.anddo.lector.etl", "br.com.anddo.lector.etl\br.com.anddo.lector.etl.csproj", "{BD673C07-7127-4790-8CCA-890759E96017}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "br.com.anddo.lector.app", "br.com.anddo.lector.app\br.com.anddo.lector.app.csproj", "{F96BB763-E37D-42F8-BA4A-735EBC17195F}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 5
+		SccNumberOfProjects = 6
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://anddo.visualstudio.com/defaultcollection
 		SccLocalPath0 = .
@@ -29,6 +31,9 @@ Global
 		SccProjectUniqueName4 = br.com.anddo.lector.etl\\br.com.anddo.lector.etl.csproj
 		SccProjectName4 = br.com.anddo.lector.etl
 		SccLocalPath4 = br.com.anddo.lector.etl
+		SccProjectUniqueName5 = br.com.anddo.lector.app\\br.com.anddo.lector.app.csproj
+		SccProjectName5 = br.com.anddo.lector.app
+		SccLocalPath5 = br.com.anddo.lector.app
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +56,10 @@ Global
 		{BD673C07-7127-4790-8CCA-890759E96017}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD673C07-7127-4790-8CCA-890759E96017}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD673C07-7127-4790-8CCA-890759E96017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96BB763-E37D-42F8-BA4A-735EBC17195F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96BB763-E37D-42F8-BA4A-735EBC17195F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96BB763-E37D-42F8-BA4A-735EBC17195F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96BB763-E37D-42F8-BA4A-735EBC17195F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
