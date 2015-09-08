@@ -1,7 +1,5 @@
-﻿using br.com.anddo.lector.domain;
-using br.com.anddo.lector.etl;
+﻿using br.com.anddo.lector.etl;
 using System.Web.Mvc;
-using System.Web.Script.Serialization;
 
 namespace br.com.anddo.lector.api.Controllers
 {
@@ -19,7 +17,7 @@ namespace br.com.anddo.lector.api.Controllers
         {
             var etl = new SAPETL();
             var p = etl.GetProduct(code);
-            return new JavaScriptSerializer().Serialize(p);
+            return Newtonsoft.Json.JsonConvert.SerializeObject(p);
         }
     }
 }
