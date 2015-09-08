@@ -1,0 +1,12 @@
+﻿- Release 1 mais:
+- carregar imagem do produto na tela do produto
+- Tela do carrinho com a lista de produtos e o total
+- Leitura do produto à partir do Ws (retorno pode ser um mock)
+- WebService:
+	- Arquitetura = 
+		- o webApi que o app consome (REST)
+		- a camada de domínio (classes conforme a do app)
+		- a camada de negócio (recebe os dados do WS de terceiro e transforma pro domínio, projeto separado)
+		- a camada que chama/conecta ao ws externo (projeto separado junto com a de negócio)
+
+- projeto android sincronizado com TFS (versionar)
