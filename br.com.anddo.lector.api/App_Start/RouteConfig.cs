@@ -18,6 +18,12 @@ namespace br.com.anddo.lector.api
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+            routes.MapRoute(
+                name: "Product",
+                url: "{controller}/{action}/{code}",
+                defaults: new { controller = "Product", action = "Get", code = UrlParameter.Optional }
+            );
         }
     }
 }
