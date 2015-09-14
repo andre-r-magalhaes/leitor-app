@@ -46,11 +46,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="_releaseplan\2015.09.17\" />
     <Folder Include="_releaseplan\2015.09.24\" />
     <Folder Include="_releaseplan\2015.10.01\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="_concepcao\app.png" />
     <Content Include="_credits\credits.txt" />
     <Content Include="_releaseplan\2015.09.03\lector.r1.png" />
     <Content Include="_concepcao\idéias.txt" />
@@ -59,6 +59,8 @@
     <Content Include="_releaseplan\2015.09.10\app.r2.png" />
     <Content Include="_releaseplan\2015.09.10\backend.r2.png" />
     <Content Include="_releaseplan\2015.09.10\release.txt" />
+    <Content Include="_releaseplan\2015.09.17\app.r3.png" />
+    <Content Include="_releaseplan\2015.09.17\release.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="_diagramas\arquitetura.asta" />
