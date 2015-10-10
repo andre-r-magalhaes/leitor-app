@@ -46,8 +46,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="_releaseplan\2015.09.24\" />
-    <Folder Include="_releaseplan\2015.10.01\" />
+    <Folder Include="_releaseplan\2015.10.15\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="_concepcao\app.png" />
@@ -61,6 +60,11 @@
     <Content Include="_releaseplan\2015.09.10\release.txt" />
     <Content Include="_releaseplan\2015.09.17\app.r3.png" />
     <Content Include="_releaseplan\2015.09.17\release.txt" />
+    <Content Include="_releaseplan\2015.09.24\adiado.txt" />
+    <Content Include="_releaseplan\2015.10.01\app.r3.png" />
+    <Content Include="_releaseplan\2015.10.01\release.txt" />
+    <Content Include="_releaseplan\2015.10.08\app.r4.png" />
+    <Content Include="_releaseplan\2015.10.08\release.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="_diagramas\arquitetura.asta" />

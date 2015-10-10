@@ -1,0 +1,25 @@
+Tela inicial com os 4 Ícones (Scan, Prod, Carrinho, Hist, Promo).
+Todos os botões (com ícones) navegam para a tela respectiva
+
+
+- Prod
+ - Ao incluir o produto, incluir o produto no carrinho no DB local conforme as regras:
+   : Sem carrinho, criar
+   : carrinho não finalizado com data de hoje, incluir
+   : carrinho não finalizado com data antiga, atualizar data pra hoje e incluir
+   
+
+- Carrinho
+ - Caso seja carrinho em aberto, exibir botão de Scanear produto
+ - Se carrinho aberto, ao deslizar o produto pra fora, excluir o produto
+
+
+- Hist
+ - Exibir lista de carrinhos finalizados
+ - Ao clicar no carrinho, navegar para a tela e exibir os detalhes
+
+
+- Promo
+ - Tela vazia com os botões de navegação
+ 
+ 
