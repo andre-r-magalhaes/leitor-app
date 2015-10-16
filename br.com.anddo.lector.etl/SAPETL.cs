@@ -14,6 +14,7 @@ namespace br.com.anddo.lector.etl
             p.Code = "7793440702940";
             p.Facts = new NutritionFacts() { };
             p.FullName = "Benjamin Nieto Senetiner Malbec - 2014";
+            p.Image = String.Format("http://lectorapi.azurewebsites.net/content/images/{0}.jpg", p.Code);
             p.FullWeightValue = "30,12";
             p.Name = "Benjamin Malbec";
             p.Offer = new SpecialOffer() { Description = "2º garrafa com 10% de desconto." };
