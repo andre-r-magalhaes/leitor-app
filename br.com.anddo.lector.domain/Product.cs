@@ -8,7 +8,7 @@ namespace br.com.anddo.lector.domain
         public string Code { get; set; }
         public string FullName { get; set; }
         public string Name { get; set; }
-        public string Image { get; set; }
+        public string Imagepath { get; set; }
         public string Weight { get; set; }
         public WeightType Type { get; set; }
         public SpecialOffer Offer { get; set; }
