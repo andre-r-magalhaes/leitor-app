@@ -85,6 +85,7 @@
     <Compile Include="Context\MySqlInitializer.cs" />
     <Compile Include="IETL.cs" />
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Mock.cs" />
     <Compile Include="Model.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SAPETL.cs" />

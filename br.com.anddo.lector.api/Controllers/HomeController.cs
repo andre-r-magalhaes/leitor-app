@@ -1,4 +1,5 @@
-﻿using System;
+﻿using br.com.anddo.lector.etl;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,6 +14,9 @@ namespace br.com.anddo.lector.api.Controllers
 
         public ActionResult Index()
         {
+            Mock m = new Mock();
+            m.execute();
+
             return View();
         }
 
