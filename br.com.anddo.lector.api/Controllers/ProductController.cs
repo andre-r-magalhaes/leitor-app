@@ -15,10 +15,11 @@ namespace br.com.anddo.lector.api.Controllers
             return View();
         }
 
-        public string Get(string code)
+        [HttpGet]
+        public string Get(string id)
         {
-            var etl = new SAPETL();
-            var p = etl.GetProduct(code);
+            var etl = new SQLexETL();
+            var p = etl.GetProduct(id);
             if (p != null)
                 return Newtonsoft.Json.JsonConvert.SerializeObject(p, new StringEnumConverter());
             else

@@ -10,10 +10,10 @@ namespace br.com.anddo.lector.etl
             //TODO: Lê da fonte do cliente
 
             Product p = null;
-            Random r = new Random(DateTime.Now.Millisecond);
+            //Random r = new Random(DateTime.Now.Millisecond);
 
-            if (r.Next(5) != 0)
-            {
+            //if (r.Next(5) != 0)
+            //{
 
                 p = new Product();
                 p.Category = new ProductCategory() { Name = "Vinho" };
@@ -27,7 +27,7 @@ namespace br.com.anddo.lector.etl
                 p.Type = WeightType.ml;
                 p.Value = "22,59";
                 p.Weight = "750";
-            }
+            //}
 
             return p;
         }

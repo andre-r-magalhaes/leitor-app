@@ -1,10 +1,12 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace br.com.anddo.lector.domain
 {
     [Serializable]
     public class Product
     {
+        [Key]
         public string Code { get; set; }
         public string FullName { get; set; }
         public string Name { get; set; }
