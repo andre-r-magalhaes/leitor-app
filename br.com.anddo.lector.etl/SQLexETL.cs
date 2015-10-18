@@ -27,7 +27,7 @@ namespace br.com.anddo.lector.etl
                             //where b.Name.StartsWith("B")
                             //select b;
 
-                var product = context.Products.ToList();
+                var product = context.Products.Include("Category").ToList();
                                 //.Where(p => p.Code == code)
                                 //.FirstOrDefault();
 

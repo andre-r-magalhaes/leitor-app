@@ -17,8 +17,13 @@ namespace br.com.anddo.lector.etl
         public Model()
             : base("name=MYSQL")
         {
-             Database.SetInitializer(new MySqlInitializer());
+            Database.SetInitializer(new MySqlInitializer());
         }
+
+        //public Model()
+        //    : base("name=SQLEXPRESS")
+        //{
+        //}
 
         // Add a DbSet for each entity type that you want to include in your model. For more information 
         // on configuring and using a Code First model, see http://go.microsoft.com/fwlink/?LinkId=390109.
