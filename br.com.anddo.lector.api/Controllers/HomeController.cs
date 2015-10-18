@@ -14,8 +14,8 @@ namespace br.com.anddo.lector.api.Controllers
 
         public ActionResult Index()
         {
-            Mock m = new Mock();
-            m.execute();
+            //Mock m = new Mock();
+            //m.execute();
 
             return View();
         }

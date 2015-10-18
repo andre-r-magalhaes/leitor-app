@@ -15,9 +15,9 @@ namespace br.com.anddo.lector.etl
         // If you wish to target a different database and/or database provider, modify the 'Model' 
         // connection string in the application configuration file.
         public Model()
-            : base("name=SQLEXPRESS")
+            : base("name=MYSQL")
         {
-             //Database.SetInitializer(new MySqlInitializer());
+             Database.SetInitializer(new MySqlInitializer());
         }
 
         // Add a DbSet for each entity type that you want to include in your model. For more information 

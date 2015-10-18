@@ -1,4 +1,6 @@
-﻿using System.Linq;
+﻿using br.com.anddo.lector.domain;
+using System;
+using System.Linq;
 
 
 namespace br.com.anddo.lector.etl
@@ -25,11 +27,19 @@ namespace br.com.anddo.lector.etl
                             //where b.Name.StartsWith("B")
                             //select b;
 
-                var product = context.Products
-                                .Where(p => p.Code == code)
-                                .FirstOrDefault();
+                var product = context.Products.ToList();
+                                //.Where(p => p.Code == code)
+                                //.FirstOrDefault();
 
-                return product;
+                Random r = new Random(DateTime.Now.Millisecond);
+                Product p = null;
+                try
+                {
+                    p = product.ElementAt(r.Next(212));
+                }
+                catch { }
+
+                return p;
             }
         }
     }
