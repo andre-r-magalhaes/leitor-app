@@ -1,0 +1,2 @@
+- Sistema web com gerenciador das promoções, das lojas e do login
+

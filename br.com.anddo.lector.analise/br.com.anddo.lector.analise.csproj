@@ -65,6 +65,10 @@
     <Content Include="_releaseplan\2015.10.01\release.txt" />
     <Content Include="_releaseplan\2015.10.08\app.r4.png" />
     <Content Include="_releaseplan\2015.10.08\release.txt" />
+    <Content Include="_releaseplan\2015.12.20\release.txt" />
+    <Content Include="_releaseplan\2015.12.27\release.txt" />
+    <Content Include="_releaseplan\2016.01.03\release.txt" />
+    <Content Include="_releaseplan\2016.01.10\release.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="_diagramas\arquitetura.asta" />

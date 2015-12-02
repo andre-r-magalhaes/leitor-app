@@ -1,0 +1,8 @@
+Login
+	- login sendo feito pelo facebook (persistência local e na nuvem);
+	- login transparente caso já tenha sido realizado
+
+Produtos
+	- busca de produtos por nome
+	- visualização da tabela nutricional
+

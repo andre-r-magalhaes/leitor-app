@@ -1,0 +1,7 @@
+Geral
+	- Erros e conexão de internet com mensagens amigáveis
+
+Geolocalização
+	- Tela do google maps com a marcação do ponto do mobile e a marcação das lojas próximas
+
+

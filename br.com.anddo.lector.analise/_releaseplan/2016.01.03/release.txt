@@ -1,0 +1,4 @@
+- Compras finalizadas sendo salvas na nuvem
+- Na home, imagens de promoções e ou link para promoção
+- no carrinho de compras, possibilidade de alterar a quantidade dos itens adicionados
+
